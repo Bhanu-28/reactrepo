@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--meta tags(Meta-tags are snippets of HTML code capable of being crawled by search engine robots such as Google.)-->
+        <!--The charset attribute specifies the character encoding for the HTML document.
+            The HTML5 specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world!-->
+        <meta charset="UTF-8">
+
+        <!--The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+            A viewport element gives the browser instructions on how to control the page's dimensions and scaling.
+            The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--title tag is used to give the give the title to the page(appears on the tab bar)-->
+        <title>demo page</title>
+    </head>
+
+    <!--contents displayed in here will be shown on the page-->
+    <body>
+        <!--heading tags (ranges from h1-h6 where h1-highest size, h6-smallest size)-->
+        <h1>Content</h1> 
+
+        <!--image tag-->
+        <!--src is the source attribute, here we used relative referencing you can also use absolute referencing.
+            alt is for description purpose
+            align is for alligning the image at your specified position
+            height and width are used for the dimension size purpose
+            It is a self tag-->
+        <img src="https://tse1.mm.bing.net/th?id=OIP.6BMXEzxS7XxqTNGs_qnzcgHaFD&pid=Api&P=0&w=274&h=187" alt="google" align="right" height="200px" width="200px"><br>
+
+        <!--paragraph tag which displays the content in the form of paragraph-->
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quos mollitia consectetur dignissimos autem dolores dolorem aperiam ipsam quod sit delectus, fugiat dicta, commodi, ipsum facere natus possimus sequi aliquid!</p><br><br>
+        
+        <!--br is a tag used to jump to the next line-->
+        <br>
+        
+        <!--strong is used to write text in bold(before versions we used b tag but now we prefer to use strong tag)-->
+        <strong>bold</strong><br>
+
+        <!--em is used to write text in italic(before versions we used i tag but now we prefer to use em tag)-->
+        <em>italic</em><br>
+
+        <!--u is used to underline the content-->
+        <u>underline</u><br>
+        
+        <!--types of lists-->
+        <!--unordered list-->
+        <ul>
+            <li>red</li>
+            <li>yellow</li>
+            <li>green</li>
+        </ul>
+        <!--ordered list-->
+        <ol>
+            <li>red</li>
+            <li>green</li>
+            <li>yellow</li>
+        </ol>
+        <!--description list-->
+        <dl>
+            <dt>colour</dt>
+            <dd>yellow</dd>
+            <dd>red</dd>
+
+        </dl>
+        <br>
+
+        <!--form tag-->
+        <form>
+            <!--input is tag which is used for the fields in forms
+                There a various number of types such as text,email,number,password,date,checkbox,radio
+                placeholder specifies a short hint that describes the expected value of an input field-->
+            name:<input type="text" placeholder="name"><br><br>
+            email:<input type="number" placeholder="number" required/><br><br>
+            <!--button tag  where type has various values such as submit,reset,menu-->
+            <button type="submit">Submit</button>
+        </form>
+        <br>
+
+        <!--table tag-->
+        <table>
+            <!--row tag-->
+            <tr>
+                <!--th is heading in the column-->
+                <th>name</th>
+                <th>branch</th>
+            </tr>
+            <tr>
+                <!--column tag-->
+                <td>laasya</td>
+                <td>cse</td>
+            </tr>
+        </table><br>
+
+        <!--anchor tag-->
+        <!--href attribute is used to redirect to the required page
+            target="_blank" is for redirecting in a new tab(various targets are: _blank,_self,_parent,_top )-->
+        <a href="https://www.google.co.in/" target="_blank">google</a>
+        <br><br>
+
+        <!--video tag -->
+        <!--height and width are used for the dimension size purpose
+            controls is mandatory which hepls you to pause and play the video
+            you can also add autoplay which enables you to automatically play the video the page opens-->
+        <video  height="360" width="400"  controls>
+            <!--source tag and specify the type of video-->
+            <source src="video.mp4" type="video/mp4"   >
+            sample video 
+        </video>
+        </br>
+
+        <!--audio tag-->
+        <!--controls is mandatory which hepls you to pause and play the video
+            you can also add autoplay which enables you to automatically play the video the page opens-->
+        <audio controls >
+            <source src="voice.ogg" type="audio/ogg">
+        </audio>
+    </body>
+</html>

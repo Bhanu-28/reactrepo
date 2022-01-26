@@ -1,0 +1,73 @@
+static data is which dont change like homepage details like that in cache helps in fast processing
+
+static data stores in browser is caching 
+
+Dynamic Data which will updated like pricing and cant be stored in cacching
+
+
+for any constants who had a value that cant be changed
+
+for css we use kebab case 
+for function camel case
+
+version control
+
+allows us to work in collaboration
+maintain history of  version 
+
+
+Distributed version control
+every developer will work on it 
+like made changes in new and approves code then merge into main 
+
+open source
+acess to code for all
+
+comits
+i pushed my changes
+
+create a github repository 
+add new file 
+git branch 
+pr 
+push 
+add 
+diff
+
+
+git reset --soft ^HEAD
+git reset --hard ^HEAD
+
+data which can be processed fast also become slow of large files so its bad practice to save in data base 
+
+lorem ipsum
+https://www.lipsum.com/
+
+
+map tag and was html vs html5 and (iframe tag + target attribute of links)
+https://madaboutsports.in/cricket-analytics-caw/?gclid=Cj0KCQiAraSPBhDuARIsAM3Js4r6CMs9QARuRiYw6b23b5lWZxH3Jd8o2wdinrxhGn22mAwZncsQ4C8aAhNAEALw_wcB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

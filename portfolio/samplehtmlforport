@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <h1><strong>Your Full Name</strong></h1>
+    <h2>-Your Designation</h2>
+    <img src="https://media.istockphoto.com/photos/mortar-and-degree-picture-id891698738?k=20&m=891698738&s=612x612&w=0&h=xJXeIorODn4FHhtsJ5KAkMG41FSyxGOH8S_ujIp6iYM=" height="200px" width="200x">
+    <h2><u>About Myself:</u></h2>
+    <p>Here you display about yourself. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis reprehenderit quasi dolorum odio inventore nihil nemo animi, fugit deserunt itaque unde eum accusamus recusandae laudantium quas rem explicabo vitae sed.</p>
+    <h2><u>Qualities:</u></h2>
+    <ul>
+        <li>1st Quality</li>
+        <li>2nd Quality</li>
+        <li>3rd quality</li>
+        <li>4th quality</li>
+    </ul>
+    <h2><u>Skills:</u></h2>
+    <ol>
+        <li>C</li>
+        <input type="checkbox" checked>
+        <input type="checkbox" checked>
+        <input type="checkbox" checked>
+        <input type="checkbox" checked>
+        <input type="checkbox" >
+
+        <li>C++</li>
+        <input type="checkbox" checked>
+        <input type="checkbox" checked>
+        <input type="checkbox" checked>
+        <input type="checkbox">
+        <input type="checkbox">
+        <li>Bootstrap</li>
+        <input type="checkbox" checked>
+        <input type="checkbox" checked>
+        <input type="checkbox" checked>
+        <input type="checkbox">
+        <input type="checkbox">
+        <li>Html</li>
+        <input type="checkbox"checked>
+        <input type="checkbox" checked>
+        <input type="checkbox" checked>
+        <input type="checkbox">
+        <input type="checkbox">
+        <li>CSS</li>
+        <input type="checkbox" checked>
+        <input type="checkbox"checked>
+        <input type="checkbox"checked>
+        <input type="checkbox"checked>
+        <input type="checkbox">
+    </ol>
+    <!--Contact us form is present here-->
+<h2><u>Contact Us:</u></h2>
+    <form>
+Email: <br>
+<input type="email">
+<br>
+Message: <br>
+<input type="text">
+<br>
+<input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
